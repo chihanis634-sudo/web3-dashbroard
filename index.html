@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web3 Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="title">⚡ Web3 Dashboard</h1>
+    <p class="subtitle">Real-time Blockchain Data using MetaMask</p>
+
+    <div class="buttons">
+      <button id="connectBtn" class="btn primary">🔗 Connect Wallet</button>
+      <button id="switchToSepolia" class="btn secondary">🌐 Switch to Sepolia</button>
+    </div>
+
+    <div class="card">
+      <h2>Wallet Info</h2>
+      <p><strong>Address:</strong> <span id="address">-</span></p>
+      <p><strong>Network:</strong> <span id="network">-</span></p>
+      <p><strong>Chain ID:</strong> <span id="chain">-</span></p>
+      <p><strong>ETH Balance:</strong> <span id="balance">0 ETH</span></p>
+    </div>
+
+    <div class="card">
+      <h2>Blockchain Info</h2>
+      <p><strong>Latest Block:</strong> <span id="block">-</span></p>
+      <p><strong>Gas Price:</strong> <span id="gas">-</span></p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
